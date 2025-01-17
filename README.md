@@ -1,6 +1,6 @@
 # Lógica de programación: sumergete en la programación
 
-### Iniciando con javascript (Desafíos)[Iniciando_con_javascript.js]
+### Iniciando con javascript [Desafíos](Iniciando_con_javascript.js)
 
 1. Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
 
