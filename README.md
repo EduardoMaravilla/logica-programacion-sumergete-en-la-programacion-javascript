@@ -1,8 +1,8 @@
 # Lógica de programación: sumergete en la programación
 
 # Índice
-A. [Iniciando con javascript](#1-iniciando-con-javascript-desafíos)
-B. [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
+ 1. [Iniciando con javascript](#1-iniciando-con-javascript-desafíos)
+ 2. [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
 
 ## 1. Iniciando con javascript [Desafíos](Iniciando_con_javascript.js)
 
