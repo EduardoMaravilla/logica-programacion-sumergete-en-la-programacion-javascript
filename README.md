@@ -4,7 +4,7 @@
 
 1.  [Iniciando con Javascript](#1-iniciando-con-javascript-desafíos)
 2.  [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
-3. [Loops y Tentativas](#3-loops-y-tentativas-desafíosloops_y_tentativasjs)
+3. [Loops y Tentativas](#3-loops-y-tentativas-desafíos)
 
 ## 1. Iniciando con javascript [Desafíos](iniciando_con_javascript.js)
 
