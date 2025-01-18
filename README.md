@@ -1,5 +1,9 @@
 # Lógica de programación: sumergete en la programación
 
+# Índice
+A. [Iniciando con javascript](#1-iniciando-con-javascript-desafíos)
+B. [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
+
 ## 1. Iniciando con javascript [Desafíos](Iniciando_con_javascript.js)
 
 1. Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
@@ -53,11 +57,14 @@ console.log(nombreUsuario);
 ```
 
 9. Pide al usuario que ingrese su edad usando un prompt y almacénala en la variable edad.
+
 ```javascript
 let edadUsuario = prompt("Por favor, Ingrese edad");
 console.log(edadUsuario);
 ```
+
 10. Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puedes obtener tu licencia de conducir!".Si necesitas ayuda, las soluciones a las actividades estarán disponibles en la sección
+
 ```javascript
 if (edad >= 18) {
   alert("¡Puedes obtener tu licencia de conducir!");
@@ -67,26 +74,51 @@ if (edad >= 18) {
 ## 2. Condicionales y Concatenación [Desafíos](condicionales_concatenacion.js)
 
 1. Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
-```javascript
 
+```javascript
+let diaDeSemana = prompt("Por favor, Ingrese el día de la semana");
+if (diaDeSemana === "Sábado" || diaDeSemana === "Domingo") {
+  alert("¡Buen fin de semana!");
+} else {
+  alert("¡Buena semana!");
+}
 ```
 
 2. Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
-```javascript
 
+```javascript
+let numeroUsuario = prompt("Por favor, Ingresa un número");
+if (numeroUsuario > 0) {
+  alert("El número ingresado es positivo");
+} else if (numeroUsuario < 0) {
+  alert("El número ingresado es negativo");
+} else {
+  alert("El número ingresado es cero");
+}
 ```
 
 3. Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". En caso contrario, muestra "Intentalo nuevamente para ganar.".
-```javascript
 
+```javascript
+let puntuacionIngresada = prompt("Ingrese la puntuación");
+if (puntuacionIngresada >= 100) {
+  alert("¡Felicidades, has ganado!");
+} else {
+  alert("Intentalo nuevamente para ganar.");
+}
 ```
 
 4. Crea un mensaje que informe al usuario sobre el saldo de su cuenta, utilizando un template string para incluir el valor del saldo.
-```javascript
 
+```javascript
+let saldoCuenta = 1000;
+let mensajeSaldo = `Tu saldo en la cuenta es ${saldoCuenta}`;
+alert(mensajeSaldo);
 ```
 
 5. Pide al usuario que ingrese su nombre mediante un prompt. Luego, muestra una alerta de bienvenida usando ese nombre.
-```javascript
 
+```javascript
+let nombreUsuario = prompt("Por favor, Ingrese su nombre");
+alert(`¡Bienvenido ${nombreUsuario}!`);
 ```
