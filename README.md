@@ -1,5 +1,5 @@
 # Lógica de programación: sumergete en la programación
-Curso de [Alura Latam](https://app.aluracursos.com/course/logica-programacion-sumergete-programacion-javascript)
+Desafíos del curso [Lógica de programación: sumérgete en la programación con JavaScript](https://app.aluracursos.com/course/logica-programacion-sumergete-programacion-javascript)
 # Índice
 
 1.  [Iniciando con Javascript](#1-iniciando-con-javascript-desafíos)
