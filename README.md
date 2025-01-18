@@ -1,10 +1,12 @@
 # Lógica de programación: sumergete en la programación
 
 # Índice
- 1. [Iniciando con javascript](#1-iniciando-con-javascript-desafíos)
- 2. [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
 
-## 1. Iniciando con javascript [Desafíos](Iniciando_con_javascript.js)
+1.  [Iniciando con Javascript](#1-iniciando-con-javascript-desafíos)
+2.  [Condicionales y Concatenación](#2-condicionales-y-concatenación-desafíos)
+3. [Loops y Tentativas](#3-loops-y-tentativas-desafíosloops_y_tentativasjs)
+
+## 1. Iniciando con javascript [Desafíos](iniciando_con_javascript.js)
 
 1. Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
 
@@ -121,4 +123,47 @@ alert(mensajeSaldo);
 ```javascript
 let nombreUsuario = prompt("Por favor, Ingrese su nombre");
 alert(`¡Bienvenido ${nombreUsuario}!`);
+```
+
+## 3. Loops y tentativas [Desafíos](loops_y_tentativas.js)
+
+1.  Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
+
+```javascript
+let contador1 = 1;
+while (contador1 <= 10) {
+  console.log(contador1);
+  contador1++;
+}
+```
+
+2.  Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
+
+```javascript
+let contador2 = 10;
+while (contador2 >= 0) {
+  console.log(contador2);
+  contador2--;
+}
+```
+
+3.  Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+
+```javascript
+let numeroRegresivo = parseInt(prompt("Ingrese un número"));
+while (numeroRegresivo >= 0) {
+  console.log(numeroRegresivo);
+  numeroRegresivo--;
+}
+```
+
+4.  Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+
+```javascript
+ let numeroProgresivo = parseInt(prompt("Ingrese un número"));
+ let contador3 = 0;
+ while (contador3 <= numeroProgresivo) {
+   console.log(contador3);
+   contador3++;
+ }
 ```
